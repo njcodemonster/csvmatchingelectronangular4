@@ -1,0 +1,12 @@
+  <h1>{{msg}}</h1>
+  <br/>
+  <hr/>
+  <label for="columnC" > Enter C-colum here</label>
+  <textarea [(ngModel)]="Ccolumn" name="columnC"></textarea>
+  <br/>
+  <hr/>
+  <label for="columnD" > Enter R-colum here</label>
+  <textarea [(ngModel)]="Dcolumn" name="columnD" ></textarea>
+  <br/>
+  <hr/>
+  <button (click)='matchit()' > Get data </button>  <button (click)='matchstep2()' > Start matching process </button>
